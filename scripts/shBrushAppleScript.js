@@ -1,0 +1,1 @@
+!function(){function e(){this.regexList=[{regex:/(--|#).*$/gm,css:"comments"},{regex:/\(\*(?:[\s\S]*?\(\*[\s\S]*?\*\))*[\s\S]*?\*\)/gm,css:"comments"},{regex:/"[\s\S]*?"/gm,css:"string"},{regex:/(?:,|:|¬|'s\b|\(|\)|\{|\}|«|\b\w*»)/g,css:"color1"},{regex:/(-)?(\d)+(\.(\d)?)?(E\+(\d)+)?/g,css:"color1"},{regex:/(?:&(amp;|gt;|lt;)?|=|� |>|<|≥|>=|≤|</|≥|>
