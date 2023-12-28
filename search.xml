@@ -88,7 +88,9 @@
       
       <categories>
           
-          <category> website - JS </category>
+          <category> website </category>
+          
+          <category> JS </category>
           
       </categories>
       
@@ -107,7 +109,9 @@
       
       <categories>
           
-          <category> website - JSP </category>
+          <category> website </category>
+          
+          <category> JSP </category>
           
       </categories>
       
@@ -387,9 +391,9 @@
             
             <tag> Nlp.js </tag>
             
-            <tag> Website </tag>
-            
             <tag> JS </tag>
+            
+            <tag> Website </tag>
             
             <tag> ejs </tag>
             
@@ -559,9 +563,9 @@
             
             <tag> Nlp.js </tag>
             
-            <tag> Website </tag>
-            
             <tag> JS </tag>
+            
+            <tag> Website </tag>
             
             <tag> ejs </tag>
             
@@ -673,9 +677,9 @@
       
         <tags>
             
-            <tag> MIP </tag>
-            
             <tag> GAMS </tag>
+            
+            <tag> MIP </tag>
             
         </tags>
       
@@ -823,9 +827,9 @@
       
         <tags>
             
-            <tag> MIP </tag>
-            
             <tag> GAMS </tag>
+            
+            <tag> MIP </tag>
             
         </tags>
       
