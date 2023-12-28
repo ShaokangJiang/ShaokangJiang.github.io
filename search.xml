@@ -193,7 +193,7 @@
       <link href="/2021/Scrap-and-report-covid-info/"/>
       <url>/2021/Scrap-and-report-covid-info/</url>
       
-        <content type="html"><![CDATA[<p>This is a tool built to automatically scrapping information from government website and provide updates to Wechat platform using wxpusher. Source code is available at <a href="https://github.com/ShaokangJiang/email-covid-forward" target="_blank" rel="noopener">email-covid-forward</a>.<a id="more"></a></p><p>Source code:</p>]]></content>
+        <content type="html"><![CDATA[<p>This is a tool built to automatically scrape information from government websites using Puppeteer and provide updates to the WeChat platform using wxpusher. The source code is available at <a href="https://github.com/ShaokangJiang/daily-report" target="_blank" rel="noopener">ShaokangJiang/daily-report (github.com)</a>. Additionally, it contains several wrapped functions, including translation, nature language understanding, and interaction with Cloudflare Worker to save and interpret daily case data. Puppeteer is capable of simulating real user behavior and avoiding being blocked by too frequent requests. This project has been run for over 6 months.</p>]]></content>
       
       
       
