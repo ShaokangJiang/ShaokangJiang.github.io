@@ -15,8 +15,6 @@
           
           <category> research </category>
           
-          <category> Empirical study </category>
-          
       </categories>
       
       
@@ -67,8 +65,6 @@
           
           <category> research </category>
           
-          <category> Empirical study </category>
-          
       </categories>
       
       
@@ -92,9 +88,7 @@
       
       <categories>
           
-          <category> website - JS </category>
-          
-          <category> Empirical study </category>
+          <category> research </category>
           
       </categories>
       
@@ -128,8 +122,6 @@
           
           <category> optimization </category>
           
-          <category> Nodejs </category>
-          
       </categories>
       
       
@@ -138,6 +130,8 @@
             <tag> GAMS </tag>
             
             <tag> LP </tag>
+            
+            <tag> NodeJs </tag>
             
         </tags>
       
@@ -176,8 +170,6 @@
           
           <category> research </category>
           
-          <category> Empirical study </category>
-          
       </categories>
       
       
@@ -201,7 +193,9 @@
       
       <categories>
           
-          <category> website - JS </category>
+          <category> website </category>
+          
+          <category> JS </category>
           
       </categories>
       
