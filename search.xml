@@ -4,32 +4,6 @@
   
     
     <entry>
-      <title>Eye tracking fixation algorithm</title>
-      <link href="/2023/Eye-tracking-fixation-algorithm/"/>
-      <url>/2023/Eye-tracking-fixation-algorithm/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Build VSCode extension</title>
-      <link href="/2023/Build-VSCode-extension/"/>
-      <url>/2023/Build-VSCode-extension/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Fighting loneliness using generative AI with avatar</title>
       <link href="/2023/Fighting-loneliness-using-generative-AI-with-avatar/"/>
       <url>/2023/Fighting-loneliness-using-generative-AI-with-avatar/</url>
@@ -40,6 +14,8 @@
       <categories>
           
           <category> research </category>
+          
+          <category> Empirical study </category>
           
       </categories>
       
@@ -91,6 +67,8 @@
           
           <category> research </category>
           
+          <category> Empirical study </category>
+          
       </categories>
       
       
@@ -99,6 +77,27 @@
             <tag> research </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Eye tracking fixation algorithm</title>
+      <link href="/2023/Eye-tracking-fixation-algorithm/"/>
+      <url>/2023/Eye-tracking-fixation-algorithm/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> website - JS </category>
+          
+          <category> Empirical study </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -129,6 +128,8 @@
           
           <category> optimization </category>
           
+          <category> Nodejs </category>
+          
       </categories>
       
       
@@ -145,6 +146,25 @@
     
     
     <entry>
+      <title>Build VSCode extension</title>
+      <link href="/2022/Build-VSCode-extension/"/>
+      <url>/2022/Build-VSCode-extension/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> NodeJs </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python type hint in Competitive Programming</title>
       <link href="/2022/Whether-Python-Type-Hints-are-helpful-for-competitive-programmers-CP/"/>
       <url>/2022/Whether-Python-Type-Hints-are-helpful-for-competitive-programmers-CP/</url>
@@ -155,6 +175,8 @@
       <categories>
           
           <category> research </category>
+          
+          <category> Empirical study </category>
           
       </categories>
       
@@ -177,6 +199,12 @@
         <content type="html"><![CDATA[<p>A user script designed to be injected into <a href="http://itestcloud.unipus.cn" target="_blank" rel="noopener">itestcloud.unipus.cn</a>, helping individuals grade in their preferred, customized way by utilizing <a href="https://www.tensorflow.org/" target="_blank" rel="noopener">TensorFlow</a> and bi-gram to simplify the grading process.<a id="more"></a> The original project is intended to help my mom grade assignments more quickly and alleviate her stress in grading students’ assignments. The project uses Bi-gram and <a href="https://www.tensorflow.org/api_docs/python/tf/keras/losses/CosineSimilarity" target="_blank" rel="noopener">tf.keras.losses.CosineSimilarity of TensorFlow v2.14.0</a> to calculate similarity, taking into account word counts, and it reports the recommendation score. Users can choose to accept or adjust the recommended score.</p><p>Original script:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// ==UserScript==</span></span><br><span class="line"><span class="comment">// @name         New Userscript</span></span><br><span class="line"><span class="comment">// @namespace    http://tampermonkey.net/</span></span><br><span class="line"><span class="comment">// @version      0.1</span></span><br><span class="line"><span class="comment">// @description  try to take over the world!</span></span><br><span class="line"><span class="comment">// @author       You</span></span><br><span class="line"><span class="comment">// @match        https://itestcloud.unipus.cn/utest/itest/biz/kaoshi/rate?*</span></span><br><span class="line"><span class="comment">// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==</span></span><br><span class="line"><span class="comment">// @grant        none</span></span><br><span class="line"><span class="comment">// @require      https://cdn.jsdelivr.net/npm/@tensorflow/tfjs</span></span><br><span class="line"><span class="comment">// @require      https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder</span></span><br><span class="line"><span class="comment">// ==/UserScript==</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"><span class="meta">    'use strict'</span>;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">compareTwoStrings</span>(<span class="params">first, second</span>) </span>&#123;</span><br><span class="line">        first = first.replace(<span class="regexp">/\s+/g</span>, <span class="string">''</span>)</span><br><span class="line">        second = second.replace(<span class="regexp">/\s+/g</span>, <span class="string">''</span>)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (first === second) <span class="keyword">return</span> <span class="number">1</span>; <span class="comment">// identical or empty</span></span><br><span class="line">        <span class="keyword">if</span> (first.length &lt; <span class="number">2</span> || second.length &lt; <span class="number">2</span>) <span class="keyword">return</span> <span class="number">0</span>; <span class="comment">// if either is a 0-letter or 1-letter string</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">let</span> firstBigrams = <span class="keyword">new</span> <span class="built_in">Map</span>();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; first.length - <span class="number">1</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">const</span> bigram = first.substring(i, i + <span class="number">2</span>);</span><br><span class="line">            <span class="keyword">const</span> count = firstBigrams.has(bigram)</span><br><span class="line">            ? firstBigrams.get(bigram) + <span class="number">1</span></span><br><span class="line">            : <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">            firstBigrams.set(bigram, count);</span><br><span class="line">        &#125;;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">let</span> intersectionSize = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; second.length - <span class="number">1</span>; i++) &#123;</span><br><span class="line">            <span class="keyword">const</span> bigram = second.substring(i, i + <span class="number">2</span>);</span><br><span class="line">            <span class="keyword">const</span> count = firstBigrams.has(bigram)</span><br><span class="line">            ? firstBigrams.get(bigram)</span><br><span class="line">            : <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (count &gt; <span class="number">0</span>) &#123;</span><br><span class="line">                firstBigrams.set(bigram, count - <span class="number">1</span>);</span><br><span class="line">                intersectionSize++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> (<span class="number">2.0</span> * intersectionSize) / (first.length + second.length - <span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">word</span>(<span class="params">sentence</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> length = sentence.length;</span><br><span class="line"></span><br><span class="line">            <span class="comment">//去掉字符串前面的空格</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;length;i++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(sentence[i]!=<span class="string">' '</span>) &#123;</span><br><span class="line">                sentence = sentence.substring(i,length);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">//去掉字符串前面空格的字符串长度</span></span><br><span class="line">        length=sentence.length;</span><br><span class="line">        <span class="comment">//去掉字符串后面的空格</span></span><br><span class="line">        <span class="keyword">for</span>(i=length<span class="number">-1</span>;i&gt;=<span class="number">0</span>;i--) &#123;</span><br><span class="line">            <span class="keyword">if</span>(sentence[i]!=<span class="string">' '</span>) &#123;</span><br><span class="line">                sentence = sentence.substring(<span class="number">0</span>,i+<span class="number">1</span>);</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        length=sentence.length;</span><br><span class="line">        <span class="comment">//去掉字符串中间的空格</span></span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;length;i++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(sentence[i]==<span class="string">' '</span>) &#123;</span><br><span class="line">                <span class="keyword">if</span>(sentence[i+<span class="number">1</span>]==<span class="string">' '</span>) &#123;</span><br><span class="line">                    <span class="keyword">var</span> buffer1 = sentence.substring(<span class="number">0</span>,i);</span><br><span class="line">                    <span class="keyword">var</span> buffer2 = sentence.substring(i+<span class="number">1</span>,sentence.length);</span><br><span class="line">                    sentence = buffer1+buffer2;</span><br><span class="line">                    i--;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> sentence;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">CountWord</span>(<span class="params">sentence</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">let</span> s = sentence;</span><br><span class="line">        s = s.replace(<span class="regexp">/(^\s*)|(\s*$)/gi</span>,<span class="string">""</span>);</span><br><span class="line">        s = s.replace(<span class="regexp">/[ ]&#123;2,&#125;/gi</span>,<span class="string">" "</span>);</span><br><span class="line">        s = s.replace(<span class="regexp">/\n /</span>,<span class="string">"\n"</span>);</span><br><span class="line">        <span class="keyword">return</span> s.split(<span class="string">' '</span>).length;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">let</span> stu = word(<span class="built_in">document</span>.getElementsByTagName(<span class="string">"pre"</span>)[<span class="number">2</span>].innerText);</span><br><span class="line">    <span class="keyword">let</span> ans = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"pre"</span>)[<span class="number">3</span>].innerText;</span><br><span class="line">    <span class="built_in">console</span>.log(stu);</span><br><span class="line">    <span class="built_in">console</span>.log(ans);</span><br><span class="line">    <span class="keyword">let</span> wordbyword = compareTwoStrings(stu,ans);</span><br><span class="line">    <span class="comment">// Your code here...</span></span><br><span class="line">    <span class="keyword">let</span> similarity = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">let</span> stuword = <span class="built_in">parseInt</span>(<span class="built_in">document</span>.getElementsByClassName(<span class="string">"rateScoreInput unknown"</span>)[<span class="number">1</span>].parentElement.nextElementSibling.nextElementSibling.innerText);</span><br><span class="line">    <span class="keyword">let</span> wordScore = stuword/CountWord(ans);</span><br><span class="line">    <span class="keyword">if</span>(wordScore&gt;<span class="number">1</span>) wordScore = <span class="number">1</span>;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"word score: "</span>+wordScore);</span><br><span class="line">    <span class="keyword">if</span>(wordScore&lt;<span class="number">0.5</span>) alert(<span class="string">"F文章字数少："</span>+(wordScore*<span class="number">100</span>).toFixed(<span class="number">2</span>));</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"wordbyword: "</span> + wordbyword);</span><br><span class="line">    <span class="keyword">if</span>(wordbyword&lt;<span class="number">0.5</span>) alert(<span class="string">"F文章逐字少："</span>+(wordbyword*<span class="number">100</span>).toFixed(<span class="number">2</span>));</span><br><span class="line">    (<span class="keyword">async</span>() =&gt; &#123;</span><br><span class="line">        <span class="keyword">const</span> model = <span class="keyword">await</span> use.load();</span><br><span class="line">        <span class="keyword">const</span> embeddings = (<span class="keyword">await</span> model.embed([ans, stu])).unstack()</span><br><span class="line">        <span class="built_in">console</span>.log(embeddings[<span class="number">0</span>])</span><br><span class="line">        similarity = (<span class="number">1</span>-<span class="built_in">parseFloat</span>((<span class="keyword">await</span> tf.losses.cosineDistance(embeddings[<span class="number">0</span>], embeddings[<span class="number">1</span>], <span class="number">0</span>).data()).toString()));</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">"Tensorflow Similarity: "</span>+ similarity);</span><br><span class="line">        <span class="keyword">let</span> finalGrade1 = (wordScore*<span class="number">0.75</span> + wordbyword*<span class="number">0.05</span> + similarity*<span class="number">0.2</span>)*<span class="number">20</span>;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="string">"Final F: "</span> + finalGrade1);</span><br><span class="line">        <span class="keyword">if</span>(similarity&lt;<span class="number">0.8</span>) alert(<span class="string">"F文章similarity低："</span>+(similarity*<span class="number">100</span>).toFixed(<span class="number">2</span>));</span><br><span class="line">        finalGrade1 = <span class="built_in">Math</span>.floor(finalGrade1);</span><br><span class="line">        <span class="built_in">document</span>.getElementsByClassName(<span class="string">"rateScoreInput unknown"</span>)[<span class="number">1</span>].value = finalGrade1;</span><br><span class="line">        <span class="built_in">document</span>.getElementsByClassName(<span class="string">"rateScoreInput unknown"</span>)[<span class="number">1</span>].parentElement.nextElementSibling.nextElementSibling.innerText += <span class="string">"\n字数："</span> + stuword + <span class="string">"/"</span> + CountWord(ans) + <span class="string">"="</span> + (wordScore*<span class="number">100</span>).toFixed(<span class="number">2</span>) + <span class="string">"\n逐字："</span> +(wordbyword*<span class="number">100</span>).toFixed(<span class="number">2</span>)+ <span class="string">"\nTensorFlow："</span> +(similarity*<span class="number">100</span>).toFixed(<span class="number">2</span>)+<span class="string">"\nFinal："</span>+finalGrade1;</span><br><span class="line">    &#125;)()</span><br><span class="line">    <span class="keyword">let</span> a = <span class="built_in">document</span>.createElement(<span class="string">"div"</span>);</span><br><span class="line">   a.innerHTML =  <span class="string">`&lt;input type='button' value='Add One' onclick='document.getElementsByClassName("rateScoreInput unknown")[1].value = parseInt(document.getElementsByClassName("rateScoreInput unknown")[1].value) + 1'&gt;&lt;input type='button' value='Dec One' onclick='document.getElementsByClassName("rateScoreInput unknown")[1].value = parseInt(document.getElementsByClassName("rateScoreInput unknown")[1].value) - 1'&gt;`</span></span><br><span class="line"><span class="built_in">document</span>.getElementsByClassName(<span class="string">"rateScoreInput unknown"</span>)[<span class="number">1</span>].parentElement.appendChild(a)</span><br><span class="line">&#125;)();</span><br><span class="line"><span class="comment">// document.getElementsByClassName("rateScoreInput unknown")[0].parentElement.appendChild()</span></span><br><span class="line"><span class="comment">//字数50%</span></span><br></pre></td></tr></table></figure>]]></content>
       
       
+      <categories>
+          
+          <category> website - JS </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -196,6 +224,20 @@
         <content type="html"><![CDATA[<p>This is a tool built to automatically scrape information from government websites using Puppeteer and provide updates to the WeChat platform using wxpusher. The source code is available at <a href="https://github.com/ShaokangJiang/daily-report" target="_blank" rel="noopener">ShaokangJiang/daily-report (github.com)</a>. Additionally, it contains several wrapped functions, including translation, nature language understanding, and interaction with Cloudflare Worker to save and interpret daily case data. Puppeteer is capable of simulating real user behavior and avoiding being blocked by too frequent requests. This project has been run for over 6 months.</p>]]></content>
       
       
+      <categories>
+          
+          <category> Nodejs </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Javascript </tag>
+            
+            <tag> Nodejs </tag>
+            
+        </tags>
       
     </entry>
     
